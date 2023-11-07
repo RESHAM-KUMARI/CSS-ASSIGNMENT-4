@@ -1,0 +1,162 @@
+.h1{
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    background-image: linear-gradient(to right, red, green 40%, yellow);
+    color: black;
+   
+}
+.lara{
+    height: 70px;
+    width: 900px;
+    color: black;
+    text-align: center;
+    background-color:rgb(153, 195, 192);
+    font-weight: bold;
+    border: 4px solid red;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+ul{
+    margin-right: 250px;
+    margin-left: 300px;
+    
+}
+.grid{
+    margin-top: 35px;
+    padding-top: 20px;
+    border: 2px solid rgb(234, 32, 32);
+    border-radius: 15px;
+    background-color: aquamarine;
+    height: 130px;
+}
+.grid1{
+    flex-direction: row;
+    display: flex;
+   
+}
+
+.lara1{
+    border: 3px solid green;
+    background-color: rgb(106, 232, 232);
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 65px;
+    width: 370px;
+    margin-top: -20px;
+}
+.grid2{
+    margin-left: 500px;
+}
+.h2{
+    height: 35px;
+    text-align: center;
+    background-image: linear-gradient(to right, red, yellow 50%, red);
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline rgb(166, 21, 21);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grid3{
+    display: flex;
+    justify-content: space-evenly;
+    background: radial-gradient(blue , aqua, green);
+    height: 250px;
+    align-items: center;
+}
+.exam{
+    border: 3px solid red;
+    height: 90px;
+    width: 230px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color:rgb(247, 247, 11);
+    color: rgb(144, 27, 27);
+    text-decoration: underline;
+}
+#silk{
+    color: white;
+    background-color: rgb(226, 25, 25);
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    grid-column: 1 / 5;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content{
+    display: grid;
+    width: 1500px;
+    height: auto;
+    border: 1px solid rgba(37, 36, 36, 0.436);
+    margin-top: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.silk1{
+    height: 70px;
+    width: 450px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: lightgreen;
+}
+.silk2{
+    height: 70px;
+    width: 450px;
+    background-color: rgb(156, 217, 237);
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(228, 236, 243);
+   
+}
+.silk3{
+    height: 70px;
+    width: 450px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(76, 76, 233);
+    color: white;
+}
+.silk4{
+    width: 100px;
+    height: 190px;
+    grid-column-start: 4;
+    grid-row: 2 / 8;
+    background-color: black;
+    color: white;
+}
+.silk5{
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color:rgb(225, 166, 58);
+    grid-column: 1 / 4;
+}
+.BEST{
+    color: black;
+    grid-column: 1 / 5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(49, 189, 189);
+}
